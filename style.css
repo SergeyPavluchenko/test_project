@@ -63,5 +63,71 @@ header {
 header nav a {
   margin-left: 16px;
   text-decoration: none;
-  color: #333;
+  color: #fff;
+}
+.header_bloks {
+  display: flex;
+  width: auto;
+  height: 17px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_bloks_size_text {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.button_login {
+  background: #57e1ff;
+  border-color: #57e1ff;
+  width: 86px;
+  height: 42px;
+  border-radius: 3px;
+  border: 1.5px;
+  padding-top: 11px;
+  padding-right: 24px;
+  padding-bottom: 11px;
+  padding-left: 24px;
+}
+.button_login:hover,
+.button_login:focus,
+.button_registration:hover,
+.button_registration:focus {
+  background: #57e1ff33;
+  border-color: #57e1ffff;
+  border: 1.5px;
+  .button_login_span,
+  .button_registration_span {
+    color: #57e1ff;
+  }
+}
+
+.button_registration {
+  background: #57e1ff;
+  border-color: #57e1ff;
+  width: 146px;
+  height: 42px;
+  top: 13px;
+  left: 1214px;
+  angle: 0 deg;
+  opacity: 1;
+  gap: 8px;
+  border-radius: 3px;
+  border: 1.5px;
+  padding-top: 11px;
+  padding-right: 24px;
+  padding-bottom: 11px;
+  padding-left: 24px;
+}
+.button_login_span,
+.button_registration_span {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 98px;
 }
